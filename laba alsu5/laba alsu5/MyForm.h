@@ -10,7 +10,7 @@ namespace labaalsu5 {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// РЎРІРѕРґРєР° РґР»СЏ MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -19,13 +19,13 @@ namespace labaalsu5 {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: РґРѕР±Р°РІСЊС‚Рµ РєРѕРґ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// РћСЃРІРѕР±РѕРґРёС‚СЊ РІСЃРµ РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ СЂРµСЃСѓСЂСЃС‹.
 		/// </summary>
 		~MyForm()
 		{
@@ -53,14 +53,14 @@ namespace labaalsu5 {
 	protected:
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// РћР±СЏР·Р°С‚РµР»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°.
 		/// </summary>
 		System::ComponentModel::Container^ components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// РўСЂРµР±СѓРµРјС‹Р№ РјРµС‚РѕРґ РґР»СЏ РїРѕРґРґРµСЂР¶РєРё РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР° вЂ” РЅРµ РёР·РјРµРЅСЏР№С‚Рµ 
+		/// СЃРѕРґРµСЂР¶РёРјРѕРµ СЌС‚РѕРіРѕ РјРµС‚РѕРґР° СЃ РїРѕРјРѕС‰СЊСЋ СЂРµРґР°РєС‚РѕСЂР° РєРѕРґР°.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -86,8 +86,8 @@ namespace labaalsu5 {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(683, 63);
 			this->label1->TabIndex = 0;
-			this->label1->Text = L"Дан двумерный массив размерности ММ.\r\nЗаменить каждый отрицательный элемент этой "
-				L"матрицы на сумму элементов своей строки.\r\nВывести получившуюся матрицу на экран."
+			this->label1->Text = L"Р”Р°РЅ РґРІСѓРјРµСЂРЅС‹Р№ РјР°СЃСЃРёРІ СЂР°Р·РјРµСЂРЅРѕСЃС‚Рё РњРњ.\r\nР—Р°РјРµРЅРёС‚СЊ РєР°Р¶РґС‹Р№ РѕС‚СЂРёС†Р°С‚РµР»СЊРЅС‹Р№ СЌР»РµРјРµРЅС‚ СЌС‚РѕР№ "
+				L"РјР°С‚СЂРёС†С‹ РЅР° СЃСѓРјРјСѓ СЌР»РµРјРµРЅС‚РѕРІ СЃРІРѕРµР№ СЃС‚СЂРѕРєРё.\r\nР’С‹РІРµСЃС‚Рё РїРѕР»СѓС‡РёРІС€СѓСЋСЃСЏ РјР°С‚СЂРёС†Сѓ РЅР° СЌРєСЂР°РЅ."
 				L"";
 			this->label1->Click += gcnew System::EventHandler(this, &MyForm::label1_Click);
 			// 
@@ -98,7 +98,7 @@ namespace labaalsu5 {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(80, 16);
 			this->label2->TabIndex = 1;
-			this->label2->Text = L"Введите M:";
+			this->label2->Text = L"Р’РІРµРґРёС‚Рµ M:";
 			// 
 			// textBox1
 			// 
@@ -116,7 +116,7 @@ namespace labaalsu5 {
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(116, 16);
 			this->label4->TabIndex = 6;
-			this->label4->Text = L"Введите массив:";
+			this->label4->Text = L"Р’РІРµРґРёС‚Рµ РјР°СЃСЃРёРІ:";
 			this->label4->Visible = false;
 			// 
 			// button1
@@ -127,7 +127,7 @@ namespace labaalsu5 {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(177, 41);
 			this->button1->TabIndex = 7;
-			this->button1->Text = L"Посчитать";
+			this->button1->Text = L"РџРѕСЃС‡РёС‚Р°С‚СЊ";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
@@ -138,7 +138,7 @@ namespace labaalsu5 {
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(87, 59);
 			this->button2->TabIndex = 10;
-			this->button2->Text = L"Создать сетку";
+			this->button2->Text = L"РЎРѕР·РґР°С‚СЊ СЃРµС‚РєСѓ";
 			this->button2->UseVisualStyleBackColor = true;
 			this->button2->Click += gcnew System::EventHandler(this, &MyForm::button2_Click);
 			// 
@@ -202,11 +202,11 @@ namespace labaalsu5 {
 		label4->Visible = true;
 		dataGridView1->Enabled = true;
 		dataGridView1->Visible = true;
-		//Считываем размер массива:
+		//РЎС‡РёС‚С‹РІР°РµРј СЂР°Р·РјРµСЂ РјР°СЃСЃРёРІР°:
 		int m;
 		m = System::Convert::ToInt32(textBox1->Text);
 		int a[100][100];
-		//Строим сетку
+		//РЎС‚СЂРѕРёРј СЃРµС‚РєСѓ
 		dataGridView1->RowCount = m;
 		dataGridView1->ColumnCount = m;
 		for (int i = 0; i < m; i++) {
@@ -222,12 +222,12 @@ namespace labaalsu5 {
 		for (int i = 0; i < m; i++) {
 			for (int j = 0; j < m; j++) {
 				if (a[i][j] > 0) {
-					dataGridView2->Rows[i]->Cells[j]->Value = a[i][j];
+					dataGridView2->Rows[i]->Cells[j]->Value = resh(i, j, m, a);
 				}
 			}
 		}
 	}
-		   void resh(int i, int j, int m, int a[100][100]) {
+		   int resh(int i, int j, int m, int a[100][100]) {
 			   int sum = 0;
 			   for (i; i < m; i++) {
 				   for (j; j < m; j++) {
@@ -235,14 +235,14 @@ namespace labaalsu5 {
 						   for (int k = 0; k < m; k++) {
 							   sum = sum + a[i][k];
 						   }
-						   a[i][j] = sum;
 					   }
 				   }
 			   }
+			   return sum;
 		   }
 		
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
-		//включаем 1 таблицу и показываем 2, убираем кнопку создать сетку и убираем ввод в текст бокс
+		//РІРєР»СЋС‡Р°РµРј 1 С‚Р°Р±Р»РёС†Сѓ Рё РїРѕРєР°Р·С‹РІР°РµРј 2, СѓР±РёСЂР°РµРј РєРЅРѕРїРєСѓ СЃРѕР·РґР°С‚СЊ СЃРµС‚РєСѓ Рё СѓР±РёСЂР°РµРј РІРІРѕРґ РІ С‚РµРєСЃС‚ Р±РѕРєСЃ
  		label4->Enabled = false;
 		label4->Visible = false;
 		textBox1->Enabled = false;
